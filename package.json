@@ -1,0 +1,30 @@
+{
+  "name": "sia-absensi-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SIA Absensi Sekolah — porting Next.js 14 + Supabase dari Google Apps Script + Google Sheets",
+  "engines": {
+    "node": ">=18.17 <21"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.45.4",
+    "@zxing/browser": "^0.2.1",
+    "exceljs": "^4.4.0",
+    "next": "^14.2.13",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.13"
+  }
+}
